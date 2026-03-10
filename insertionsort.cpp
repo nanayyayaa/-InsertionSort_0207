@@ -46,3 +46,11 @@ void insertionsort(){
         }
     }
 }
+
+void display()
+{
+    cout << endl;
+    cout << "\n=================";
+    cout << "\nElement Array" << endl;
+    cout << "\n=================";
+}
