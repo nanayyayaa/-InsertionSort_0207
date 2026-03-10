@@ -7,5 +7,22 @@ int n;
 void input (){
     while (true){
         cout << "Maukkan Jumlah Data pada Array : ";
+        cin >> n;
+
+        if (n <= 20){
+            break;
+        }
+        else{
+            cout << "\nArray Tidak Boleh Lebih dari 20\n";
+        }
+    }
+    cout << endl;
+    cout << "==============================================";
+    cout << "==========Masukkan Element Array==============";
+    cout << "==============================================";
+
+    for (int i = 0; i < n; i++ ){
+        cout << "Data ke-" << (i+1) << ": ";
+        cin >> arr[i];
     }
 }
